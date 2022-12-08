@@ -29,6 +29,7 @@ local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("FLASH HUB", "Sentinel")
 
 local Tab = Window:NewTab("Home")
+local Section = Tab:NewSection("NEW UPDATE V 2.0.1")
 
 local Section = Tab:NewSection("Welcome user")
 
@@ -665,9 +666,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/scripts/m
 end)
 
 local Tab = Window:NewTab("Scripts")
-
+ 
 local Section = Tab:NewSection("Scripts")
+Section:NewButton("Transform into a monster (r6)", "", function()
 
+    print("Clicked")
+loadstring(game:HttpGet('https://pastebin.com/raw/wC64LrAJ',true))()
+end)
 Section:NewButton(" Tower of heck admin script (use .antiban and .anitkick)", "use .anitban and .antikick to be not banned/kick", function()
 
     print("Clicked")
@@ -682,9 +687,9 @@ local Section = Tab:NewSection("Soon")
 
 local Tab = Window:NewTab("Credits")
 
-local Section = Tab:NewSection("Made by legendary#2130 on Discord")
+local Section = Tab:NewSection("Made by flash")
 
-Section:NewButton("Youtube: Legend gaming", "youtube channel", function()
+Section:NewButton("Youtube: FLASH", "youtube channel", function()
 
     print("Clicked")
 
